@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nacha.Core.UnitTests", "Src\Nacha.Core.UnitTests\Nacha.Core.UnitTests.csproj", "{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6552318D-BB98-4892-84F7-C4674B5BEF94} = {6552318D-BB98-4892-84F7-C4674B5BEF94}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nacha.Core", "Src\Nacha.Core\Nacha.Core.csproj", "{6552318D-BB98-4892-84F7-C4674B5BEF94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57E6B577-E659-4F3F-B1F3-F800A76F149C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9B6F7128-48FD-43C9-8CBE-894EFB3BD991}.Release|x86.ActiveCfg = Release|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6552318D-BB98-4892-84F7-C4674B5BEF94}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
