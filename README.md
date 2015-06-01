@@ -1,2 +1,2 @@
 # nacho-nacha
-An home-grown, open-source NACHA API
+An home-grown, open-source NACHA library
